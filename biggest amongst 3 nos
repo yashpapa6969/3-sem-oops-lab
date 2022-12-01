@@ -1,0 +1,13 @@
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{int a,b,c,big;
+cin>>a>>b>>c;
+big = (a<b)?((b>c)?b:c):(a>c?a:c);
+cout<<big;
+return 0;
+
+}
+
