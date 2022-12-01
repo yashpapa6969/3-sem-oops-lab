@@ -1,0 +1,25 @@
+#include<iostream>
+#include<string.h>
+using namespace std;
+
+int main()
+{char x[100]="yash";
+char y[100] ="gupta";
+	
+	
+	int p;
+for(p=0; x[p] != '\0'; p++);//pointing to the index of the last character of x
+	
+	for(int q=0; y[q] != '\0'; q++,p++)
+	{
+		x[p]=y[q];
+	}
+	
+	
+	x[p]='\0';
+    cout<<"Concatenated String:\n";
+	cout<<x<<endl;
+	
+	return 0;
+}
+
